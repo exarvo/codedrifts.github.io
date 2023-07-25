@@ -1,7 +1,7 @@
-html, body, header {
-    text-align: center;
-    align-items: center;
+header {
+    display: inline-flex;
+    justify-content: space-around;
 }
 p {
-    color: blue;
+    color: black;
 }
