@@ -3,8 +3,14 @@ header {
     flex-direction: row;
     flex-grow: 1;
     min-width: 25%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
-p {
-    color: black;
+
+nav > ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-width: 25%;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
