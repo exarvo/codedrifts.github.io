@@ -1,6 +1,6 @@
 html, body, header {
     text-align: center;
-    background-color: blue;
+    align-items: center;
 }
 p {
     color: blue;
