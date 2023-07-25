@@ -5,6 +5,13 @@ header {
     min-width: 25%;
     justify-content: space-evenly;
 }
+main {
+
+}
+
+@media screen {
+    
+}
 
 nav > ul {
     display: flex;
@@ -14,3 +21,4 @@ nav > ul {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
