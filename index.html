@@ -2,71 +2,167 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="SANKARSHANA">
-  <meta name="description" content="EXAR - the web station of SANKARSHANA. It is pronounced as 'X-R', Mixed Reality? Maybe.">
-  <meta name="keywords" content="mixed-reality,xr,ar,profile,portfolio,developer,web">
-  <base href="https://exar.me" target="_self">
-  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-  <link rel="stylesheet" type="text/css" href="styles/style.css" />
-  <title>Welcome to EXAR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAR | SANKARSHANA</title>
+    <meta name="author" content="SANKARSHANA">
+    <meta name="description" content="EXAR - The web station of SANKARSHANA. Pronounced: 'X-R', Mixed Reality? Maybe.">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <meta name="keywords" content="mixed-reality,xr,ar,profile,portfolio,developer,web,react,next.js,svelte">
+    <meta property="og:image" content="/img/cover.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:title" content="EXAR | SANKARSHANA">
+    <meta property="og:description" content="EXAR - The web station of SANKARSHANA. Pronounced: 'X-R', Mixed Reality? Maybe.">
+    <meta property="og:url" content="https://exar.me">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EXAR | SANKARSHANA">
+    <meta name="twitter:description" content="EXAR - The web station of SANKARSHANA. Pronounced: 'X-R', Mixed Reality? Maybe.">
+    <meta name="twitter:image" content="/img/cover.png">
+    <meta name="twitter:image:alt" content="EXAR Website - of Sankarshana">
+    <!-- the assets -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Fauna+One&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+    <!-- personal tweaks -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- <base href="https://exar.me" target="_self"> -->
 </head>
 
 <body>
-  <header>
-    <a href="http://exar.me" target="_self" rel="noopener noreferrer">
-      <img src="images/icon.png" alt="EXAR" loading="eager" height="20">
-    </a>
+    <!-- header with nav and intro -->
+    <header>
+        <!-- nav section -->
+        <nav>
+            <ul>
+                <li>
+                    <h1>
+                        <a href="/">
+                            <span class="fa-solid fa-infinity fa-fade" aria-hidden="true"></span>
+                            <span>eXaR</span>
+                        </a>
+                    </h1>
+                </li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="new.html">Read</a></li>
+                <li><a href="new.html">Activity</a></li>
+                <li><a href="#profile">Profile</a></li>
 
-    <nav>
-      Welcome / EXAR
-    </nav>
 
-    <form>
-      <div>
-        <input type="search" id="mySearch" name="q" placeholder="Search the site…" required />
-        <button><img src="images/magnifying-glass.svg" alt="search" height="12"></button>
-        <span class="validity"></span>
-      </div>
-    </form>
-  </header>
 
-  <nav class="downdock">
+                <li>
+                    <a href="/resume" class="button">
+                        <!-- <span class="resume fa-solid fa-circle-down fa-bounce"></span> -->
+                        <span class="resume">Resume</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- intro section -->
+        <section id="intro">
+            <p class="name">Hey, my name is <span>sankaRshana.</span></p>
+            <h2>I create web based applications,<br/>and share my coding journey online.</h2>
+            <p>I'm developer specializing in React.js, Svelte, and Next.js.</p>
+            <p>Currently, I'm working on a product <a href="https://exar.me" target="_blank">[He who must not be named]</a>, to dig inside the World of Indie Hackers.</p>
+        </section>
 
-    <ul>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">Welcome</a></li>
-      <li><a href="/resume" target="_blank" rel="noopener noreferrer">Resume</a></li>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">About</a></li>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">Products</a></li>
+    </header>
 
-    </ul>
+    <div class="gradient"></div>
+    <!-- projects section -->
+    <div class="grey-bg">
+        <section id="projects">
+            <h2>Project Stack</h2>
+            <article>
+                <div class="text">
+                    <h4>Portfolio Website</h4>
+                    <h3>EXAR</h3>
+                    <p class="descbox">
+                        A portfolio website designed for Sankarshana i.e., me! This is totally written in HTML and CSS for the initial run. The are some visions to this website that will be undertaken in future. Currently the "READ" and "Activity" sections of this website at work. [Last Updated: 15-08-2023]
+                        You are currently at<a href="https://exar.me">{EXAR}</a>
+                    </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <img src="/img/cover.png" alt="Screenshot of EXAR website home-page" />
+            </article>
+            <article class="reverse">
+                <div class="text">
+                    <h4>Latest</h4>
+                    <h3>WriteSpace</h3>
+                    <p class="descbox">A web application designed for Blog Aggregation and Automation. As the number of Blogging Platforms are increasing, users make accounts and manage their profile in these platforms. It becomes difficult to manage the articles and their comments as user-base grow. This application aggregates platforms like Blogger, Reddit, etc using their API's. 
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Flask</li>
+                        <li>SQLAlchemy</li>
+                        <li>OAuth</li>
+                    </ul>
+                </div>
+                <img src="/img/dashboard.jpeg" alt="Screenshot of the dashboard of the Application." />
+            </article>
+            <article>
+                <div class="text">
+                    <h4>Academic Project</h4>
+                    <h3>Path Finding Game</h3>
+                    <p class="descbox">
+                        A small fun puzzle game developed with core Computer Graphics. This project was accomplished by using the OpenGL API to make a Maze puzzle game. It was a part of the course-work in Engineering where we developed the whole game solely using OpenGL in C++ Programming Language.
+                    </p>
+                    <h4>Technologies used include:</h4>
+                    <ul>
+                        <li>OpenGL</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <img src="/img/maze.png" alt="Screenshot of the Path Finding (Maze) Game" />
+            </article>
+        </section>
+    </div>
 
-  </nav>
+    <div class="gradient"></div>
+    <!-- contact section -->
+    <div class="peach-bg">
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always interested in hearing about new teaching opportunities, writing, or web development.</p>
+            <p><a href="mailto:example@gmail.com" class="button">My Email</a></p>
+        </section>
+    </div>
 
-  <nav>
-
-    <ul>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">Notebook</a></li>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">Announcement</a></li>
-      <li><a href="#" target="_blank" rel="noopener noreferrer">Profile</a></li>
-    </ul>
-
-  </nav>
-
-  <main>
-
-    <p>This page belongs to SANKARSHANA.</p>
-    <p><a href="/resume">Resume</a></p>
-    <p>Still under Development!</p>
-    <p>Thank You</p>
-
-  </main>
-
-  <footer>
-
-  </footer>
+    <div class="gradient"></div>
+    <!-- footer section -->
+    <footer id="profile">
+        <h2><span class="copy">Sankarshana </span>&middot; Engineer</h2>
+        <ul>
+            <li>
+                <a href="https://www.x.com/codedrifts">
+                    <span class="fa-brands fa-square-x-twitter" aria-hidden="true"></span>
+                    <span class="sr-only">Twitter/X</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/sankarshanaa" target="_blank">
+                    <span class="fa-brands fa-linkedin" aria-hidden="true"></span>
+                    <span class="sr-only">LinkedIn</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.github.com/codedrifts">
+                    <span class="fa-brands fa-square-github" aria-hidden="true"></span>
+                    <span class="sr-only">Github</span>
+                </a>
+            </li>
+        </ul>
+        <p><small><span class="copy">&copy;2023 sankaRshana.</span> All rights reserved.</small></p>
+    </footer>
 </body>
 
 </html>
